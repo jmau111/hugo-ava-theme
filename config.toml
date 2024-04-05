@@ -4,19 +4,21 @@ baseURL = 'https://astridmalter.com/'
 languageCode = 'en-us'
 title = 'Astrid Malter'
 
+backgroundImage = '/content/noguchi.jpg'
+
 hideColorSchemeToggle = true
 theme = 'hugo-theme-ava'
 
 [menu]
 [[menu.main]]
-  name = 'Home'
-  url = '/'
-  weight = 10
+  name = 'Projects'
+  url = '/projects'
+  weight = 50
 [[menu.main]]
   name = 'About'
   url = '/about'
-  weight = 20
+  weight = 50
 [[menu.main]]
   name = 'Contact'
   url = '/contact'
-  weight = 30
+  weight = 50

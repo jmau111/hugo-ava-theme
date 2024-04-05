@@ -1,10 +1,4 @@
-{{ define "body_classes" }}home{{ end }}
-
-{{- define "subheader" }}
-    {{ partial "subheader.html" (dict "context" . "site" $.Site) }}
-{{- end }}
 
 {{- define "content" }}
     {{ .Content }}
-    {{ partial "welcome.html" . }}
 {{- end }}
