@@ -1,11 +1,6 @@
 {{- $image := .context.Params.Image | default .site.Params.DefaultImage -}}
-<header class="subheader" style="background-image: url({{ $image | safeHTMLAttr }});">
-    <div class="title-container slide-invert"> 
-        {{- if .context.IsHome }}
-            <h2 class="h1 post-title">{{ .context.Title | default .site.Title }}</h2>
-        {{- else }}
-            <h1 class="post-title">{{ .context.Title | default .site.Title }}</h1>
-        {{- end }}
-        {{ .date }}
-    </div>
-</header>
+body {
+    background-image: url('/img/your-image.jpg');
+    background-size: cover; /* Adjust the size of the background image to cover the entire container */
+    background-position: center; /* Center the background image */
+}

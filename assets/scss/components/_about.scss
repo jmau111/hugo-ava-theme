@@ -1,0 +1,25 @@
+.about-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 5000;
+}
+
+.about-image {
+    flex: 1;
+}
+
+.about-image img {
+    max-width: 200%;
+    height: auto;
+    float: left;
+    margin-left: 0px 0px 0px 90px;
+
+}
+
+.about-text {
+    flex: 2;
+    padding: 0 5px; 
+    font-size: 70%;
+    float: right;
+}

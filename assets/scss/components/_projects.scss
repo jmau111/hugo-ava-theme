@@ -1,0 +1,25 @@
+.projects {
+    section#projects {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 20px;
+        font-size: 0.7rem;
+
+    }
+    
+    .project {
+        font-size: 10;
+        width: 50px;
+        margin: 10px;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        padding: 15px;
+        text-align: center;
+    }
+    
+    .project img {
+        max-width: 50%;
+        height: auto;
+    }   
+}
